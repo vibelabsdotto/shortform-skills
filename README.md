@@ -35,13 +35,22 @@ PULL=~/.hermes/skills/tiktok-pull/scripts/tiktok_pull.py
 TT_OUT=./pulls python3 $PULL video "https://www.tiktok.com/@user/video/ID"
 ```
 
+### 4. pinterest
+Pinterest reference pulls for moodboards + slide backgrounds.
+- Logged-out browser search grid → scrape `i.pinimg.com` render HTML → `/originals/` hi-res
+- `scripts/fetch_pins.py` — download + dimension filter end-to-end (drops <400px avatars)
+- Pins are reference only, never post assets (third-party works, check rights)
+
+Use for: visual inspiration, background plates, hook/angle research from pin metadata.
+
 ## Structure
 
 ```
 skills/
 ├── creative-shortform-process/SKILL.md + references/
 ├── shortform-operations/SKILL.md + scripts/
-└── tiktok-pull/SKILL.md + scripts/
+├── tiktok-pull/SKILL.md + scripts/
+└── pinterest/SKILL.md + references/ + scripts/
 ```
 
 Adapt paths (`TT_OUT`, skill install dir) to your setup. Internal VibeLabs paths stripped for public use.
