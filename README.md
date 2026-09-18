@@ -43,6 +43,19 @@ Pinterest reference pulls for moodboards + slide backgrounds.
 
 Use for: visual inspiration, background plates, hook/angle research from pin metadata.
 
+### 5. realistic-iphone-imagegen
+Snapshot-prompt kit for casual iPhone-style photos (people, food, products, places).
+- JSON-prompt Pflicht, Snapshot- statt Editorial-Vokabular
+- Iron rules: light source always named, imperfection explicit, background people far + indistinct
+- Acceptance test: "would someone post this uncommented on Instagram?"
+- Examples in `references/examples.json` (gym mirror selfie, diner Schnitzel POV)
+
+### 6. bg-removal
+Local background removal. 100% on-Mac, no cloud.
+- `rembg -m birefnet-general` (default), batch, mask, color-background modes
+- `birefnet-*` = MIT, commercial-safe. `bria-rmbg` = CC BY-NC, avoid in products.
+- Verify every run visually.
+
 ## Structure
 
 ```
@@ -50,7 +63,9 @@ skills/
 ├── creative-shortform-process/SKILL.md + references/
 ├── shortform-operations/SKILL.md + scripts/
 ├── tiktok-pull/SKILL.md + scripts/
-└── pinterest/SKILL.md + references/ + scripts/
+├── pinterest/SKILL.md + references/ + scripts/
+├── realistic-iphone-imagegen/SKILL.md + references/
+└── bg-removal/SKILL.md
 ```
 
 Adapt paths (`TT_OUT`, skill install dir) to your setup. Internal VibeLabs paths stripped for public use.

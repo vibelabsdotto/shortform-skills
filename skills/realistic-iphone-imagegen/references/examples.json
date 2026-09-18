@@ -1,0 +1,71 @@
+{
+  "_note": "Beispiele aus getesteten Iterationen (7. Sep 2026) — nur als Illustration des Baukastens, nicht 1:1 wiederverwenden. Jedes neue Motiv bekommt eigene Werte.",
+  "beispiel_person_spiegel_selfie": {
+    "style": {
+      "genre": "casual amateur smartphone mirror selfie, fast everyday snapshot",
+      "post_processing": "completely unedited, straight out of camera, natural smartphone image processing, ordinary washed-out colors"
+    },
+    "subject": {
+      "description": "muscular young man in his mid-20s, athletic believable build, black tank top",
+      "state": "sweat on forehead and shoulders, chalk dust on his flexed hand",
+      "pose": "right arm raised and bent at a right angle, fist beside his head, biceps fully flexed",
+      "expression": "confident closed-mouth smirk, looking at the mirror"
+    },
+    "environment": {
+      "location": "alone in a corner of a commercial gym",
+      "background": "a few blurred gym-goers far in the background, faces indistinct",
+      "props": "workout bag and water bottle on the rubber floor nearby"
+    },
+    "camera": {
+      "device": "an iPhone 15 Pro in black, back facing the mirror",
+      "logo": "small glossy chrome Apple logo silhouette etched directly onto the glass, catching the light like polished metal, with no circle or ring or plate around it",
+      "handling": "phone held low at chest height, only two fingertips wrap around the lower edge, the rest hidden behind the phone; phone and hand partly cut off by the bottom edge of the frame"
+    },
+    "composition": {
+      "framing": "subject slightly off-center and slightly tilted, mirror edge and part of a dumbbell rack cut off at the frame edge",
+      "focus": "slightly soft focus, slight motion blur on the raised arm",
+      "orientation": "vertical 4:5"
+    },
+    "lighting": {
+      "source": "only the gym's overhead fluorescent panels plus daylight from large windows",
+      "quality": "harsh flat light, strong unflattering shadows under the jaw and eyes, slight overexposure near the windows"
+    },
+    "texture": {
+      "skin": "natural skin texture with visible pores, light sweat sheen",
+      "grain": "visible digital noise in the shadows"
+    },
+    "constraints": ["no retouching or beautification", "no studio lighting"]
+  },
+  "beispiel_food_esser_pov": {
+    "style": {
+      "genre": "casual candid smartphone photo taken by a diner right before eating",
+      "post_processing": "unedited, straight out of camera, natural smartphone image processing, slight digital noise, ordinary colors"
+    },
+    "subject": {
+      "description": "a large Wiener Schnitzel with golden-brown crispy breaded crust, subtle sheen of frying oil, and golden french fries on a simple white plate",
+      "details": "one lemon wedge on top, a fork resting loosely on the plate edge"
+    },
+    "environment": {
+      "location": "casual Austrian restaurant, plain wooden table, daylight with ordinary mixed indoor lighting",
+      "props": "glass of soda with condensation, half-full small beer, paper napkin holder, used knife next to the plate, edge of a companion's plate with dumplings in the corner",
+      "background": "blurred diners far in the background near the windows"
+    },
+    "camera": {
+      "device": "smartphone",
+      "angle": "close-up 45-degree angle from the diner's own point of view",
+      "handling": "nothing styled, no people's hands or faces visible in the frame"
+    },
+    "composition": {
+      "framing": "slightly tilted, a bit of the table in the lower frame",
+      "orientation": "horizontal 3:2"
+    },
+    "lighting": {
+      "source": "restaurant daylight with ordinary mixed indoor lighting",
+      "quality": "natural uneven lighting, nothing styled"
+    },
+    "texture": {
+      "grain": "slight digital noise"
+    },
+    "constraints": ["no studio styling", "no text and no logos in the image"]
+  }
+}
