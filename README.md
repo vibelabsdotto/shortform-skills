@@ -36,12 +36,12 @@ TT_OUT=./pulls python3 $PULL video "https://www.tiktok.com/@user/video/ID"
 ```
 
 ### 4. pinterest
-Pinterest reference pulls for moodboards + slide backgrounds.
+Pinterest visual research and reference images for internal moodboards.
 - Logged-out browser search grid → scrape `i.pinimg.com` render HTML → `/originals/` hi-res
 - `scripts/fetch_pins.py` — download + dimension filter end-to-end (drops <400px avatars)
 - Pins are reference only, never post assets (third-party works, check rights)
 
-Use for: visual inspiration, background plates, hook/angle research from pin metadata.
+Use for: visual inspiration, composition references, hook/angle research from pin metadata.
 
 ### 5. realistic-iphone-imagegen
 Snapshot-prompt kit for casual iPhone-style photos (people, food, products, places).
@@ -63,7 +63,7 @@ skills/
 ├── creative-shortform-process/SKILL.md + references/
 ├── shortform-operations/SKILL.md + scripts/
 ├── tiktok-pull/SKILL.md + scripts/
-├── pinterest/SKILL.md + references/ + scripts/
+├── pinterest/SKILL.md + scripts/
 ├── realistic-iphone-imagegen/SKILL.md + references/
 └── bg-removal/SKILL.md
 ```

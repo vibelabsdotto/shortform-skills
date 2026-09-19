@@ -1,15 +1,13 @@
 #!/usr/bin/env python3
 """
-Pinterest pin fetcher — credential-free.
+Pinterest reference image downloader.
 
 Takes pin image URLs (as scraped from a Pinterest search page) and downloads the
 usable high-res images to a target directory, filtering out the small square
 avatars Pinterest injects into the same URL space.
 
-Why this exists instead of scripts/pinterest_api.py search:
-  Pinterest renders the search grid client-side, so the upstream script's regexes
-  over raw HTML return [] . The browser is the only working discovery path; this
-  script owns the download + filtering half.
+Discover image URLs through rendered Pinterest pages in the browser.
+This script handles downloading and dimension filtering.
 
 Verified behaviour (2026-09-17):
   - /originals/<path> keeps the TRUE extension and worked 16/16
